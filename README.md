@@ -48,6 +48,8 @@ Crime-Data-Analysis-Project/
 ```bash
 git clone https://github.com/sunakshigaikwad/Crime-Data-Analysis-and-Prediction-with-ML-Power-BI-and-Web-App.git
 cd Crime-Data-Analysis-Project
+
+```bash
 2. Install Required Packages
 
 pip install -r requirements.txt
