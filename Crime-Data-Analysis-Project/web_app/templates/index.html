@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Prediction</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; padding-top: 50px; }
+        h1 { color: #333; }
+        .container { max-width: 400px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        input[type="number"] { padding: 10px; width: 100%; margin: 10px 0; border-radius: 5px; border: 1px solid #ddd; }
+        button { padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+        .result { font-size: 20px; color: #2d7f32; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Crime Prediction System</h1>
+
+    <div class="container">
+        <form action="/predict" method="POST">
+            <label for="hour">Hour (0-23):</label>
+            <input type="number" id="hour" name="hour" min="0" max="23" required>
+
+            <label for="month">Month (1-12):</label>
+            <input type="number" id="month" name="month" min="1" max="12" required>
+
+            <label for="day_of_week">Day of Week (0=Monday, 6=Sunday):</label>
+            <input type="number" id="day_of_week" name="day_of_week" min="0" max="6" required>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if result %}
+            <div class="result">
+                <p><strong>Prediction Result: </strong>{{ result }}</p>
+            </div>
+        {% endif %}
+    </div>
+
+</body>
+</html>
