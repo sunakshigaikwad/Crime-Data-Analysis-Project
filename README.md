@@ -49,12 +49,10 @@ Crime-Data-Analysis-Project/
 git clone https://github.com/sunakshigaikwad/Crime-Data-Analysis-and-Prediction-with-ML-Power-BI-and-Web-App.git
 cd Crime-Data-Analysis-Project
 2. Install Required Packages
-bash
-Copy code
+
 pip install -r requirements.txt
 If requirements.txt does not exist yet, create it with:
 
-nginx
 
 flask
 pandas
@@ -64,8 +62,6 @@ joblib
 🚀 Running the App Locally
 Make sure your trained model (model.pkl) is saved in the model/ folder.
 
-bash
-Copy code
 python app.py
 Open your browser and go to http://127.0.0.1:5000.
 
@@ -80,8 +76,6 @@ Train the model (e.g., Random Forest, Logistic Regression)
 
 Save it using:
 
-python
-Copy code
 import joblib
 joblib.dump(model, 'model/model.pkl')
 Make sure the model path matches the one in app.py.
