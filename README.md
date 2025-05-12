@@ -17,8 +17,6 @@ Crime-Data-Analysis-Project/
 ├── .gitignore # Git ignore file for large/unwanted files
 └── README.md # You're here!
 
-yaml
-Copy code
 
 ---
 
@@ -57,7 +55,7 @@ pip install -r requirements.txt
 If requirements.txt does not exist yet, create it with:
 
 nginx
-Copy code
+
 flask
 pandas
 numpy
