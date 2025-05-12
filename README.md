@@ -128,7 +128,7 @@ Make sure the model path matches the one in `app.py`.
 
 The original dataset (`crime.csv.csv`) is too large for GitHub (232 MB).
 
-📥 [Download Crime Dataset from Google Drive](https://drive.google.com/your-link-here)
+📥 [Download Crime Dataset from Kaggle.com](https://www.kaggle.com/datasets/haseefalam/crime-dataset?resource=download)
 
 > Be sure to place it in the project root folder to run Jupyter notebooks properly.
 
