@@ -147,7 +147,7 @@ The original dataset (`crime.csv.csv`) is too large for GitHub (232 MB).
 ## ✍️ Author
 
 **Sunakshi Gaikwad**  
-📧 Email: sunakshigaikwad@example.com  
+📧 Email: sunakshigaikwad2@gmail.com  
 🔗 GitHub: [sunakshigaikwad](https://github.com/sunakshigaikwad)  
 🔗 LinkedIn: [linkedin.com/in/sunakshigaikwad](https://www.linkedin.com/in/sunakshigaikwad)
 
